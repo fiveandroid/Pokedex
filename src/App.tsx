@@ -22,7 +22,7 @@ function App() {
       </header>
 
       <section className="grid grid-cols-7 gap-4">
-        {pokemons.map((pokemon) => {
+        {pokemons.map((pokemon: any) => {
           return (
             <PokemonCard
               key={pokemon.url}
